@@ -264,7 +264,9 @@ html, body {
     }
     .about__tecn{
         line-height: 40px !important;
-        padding: 0 13px !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
     .my-info__img img{
         margin-top: 25%;
