@@ -75,7 +75,7 @@ html, body {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
 }
 
-@media(max-width: 411px) {
+@media(max-width: 500px) {
     .name__profile {
         width: 320px;
     }
