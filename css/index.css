@@ -33,7 +33,7 @@ html, body {
     color: white;
     font-size: 20px;
     font-weight: 900;
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat', Arial, Helvetica, sans-serif;
 }
 
 .banner {
@@ -71,9 +71,27 @@ html, body {
     float: left;
     color: white;
     font-weight: bold;
-    color: rgb(255, 255, 255);
     letter-spacing: 2px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 411px){
+    .name__profile{
+        width: 320px;
+    }
+    .name__profile h1{
+        font-size: 50px !important;
+    }
+}
+
+@media(max-width: 320px){
+    .name__profile{
+        width: 300px;
+        height: 50px;
+    }
+    .name__profile h1{
+        font-size: 50px !important;
+    }
 }
 
 .profile img {
@@ -86,6 +104,8 @@ html, body {
     transition: 0.2s;
     transform: scale(1.1);
     animation: blinker-image 0.5s linear infinite;
+    -webkit-animation: blinker-image 0.5s linear infinite;
+    -moz-animation: blinker-image 0.5s linear infinite;
 }
 
 .cursor__name{
@@ -103,15 +123,15 @@ html, body {
     background-attachment: fixed;
 }
 
-.content__main>.title__skils {
+.content__main>.title__content {
     display: flex;
     justify-content: center;
 }
 
-.content__main>.title__skils h1 {
-    color: white;
-    font-weight: 500;
-    font-family: 'Bebas Neue', cursive;
+.content__main>.title__content h1 {
+    color: rgb(231, 177, 0);
+    font-weight: 900;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     letter-spacing: 8px;
     text-align: center;
     font-size: 30px;
@@ -179,6 +199,41 @@ html, body {
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
+}
+
+.content__about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content__about p{
+    color: white;
+}
+
+.content__fulltime{
+    width: 100%;
+}
+
+.video__fulltime{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#video_fulltime{
+    margin-bottom: 50px;
+}
+
+.info__fulltime>.logo__info{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo__info img{
+    margin: 20px;
 }
 
 @keyframes blinker {
