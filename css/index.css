@@ -123,12 +123,12 @@ html, body {
     background-attachment: fixed;
 }
 
-.content__main>.title__content {
+.title__content {
     display: flex;
     justify-content: center;
 }
 
-.content__main>.title__content h1 {
+.title__content h1 {
     color: rgb(231, 177, 0);
     font-weight: 900;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
