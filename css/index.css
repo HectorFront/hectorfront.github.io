@@ -123,6 +123,35 @@ html, body {
     background-attachment: fixed;
 }
 
+.my-info__img{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.my-info__img img{
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.my-about_img{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.my-about_img img{
+    margin-left: 5%;
+    margin-top: 15%;
+    width: 150px;
+    height: 150px;
+}
+
 .title__content {
     display: flex;
     justify-content: center;
@@ -208,26 +237,54 @@ html, body {
     align-content: center;
 }
 
-.content__about p {
-    width: 80%;
-    padding: 40px 40px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    line-height: 25px;
-    font-size: 20px;
+.about__img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media(max-width: 890px) {
-    .content__about p {
-        width: 100%;
-        padding: 40px 40px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-        line-height: 25px;
-        font-size: 20px;
+.about__info {
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 6, 102);
+    border-radius: 10px;
+}
+
+@media(max-width: 1150px){
+    .about__info {
+        display: block;
     }
+    .about__info p{
+        padding: 0 13px !important;
+    }
+    .about__tecn{
+        line-height: 40px !important;
+        padding: 0 13px !important;
+    }
+    .my-info__img img{
+        margin-top: 25%;
+        width: 90px;
+        height: 90px;
+    }
+    .my-about_img{
+        display: none;
+    }
+}
+
+.about__info p {
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 0 40px;
+    font-size: 15px;
 }
 
 .content__fulltime {
