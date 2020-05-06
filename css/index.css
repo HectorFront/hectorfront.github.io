@@ -61,7 +61,7 @@ html, body {
     justify-content: center;
     background-color: rgb(24, 31, 42);
     border-radius: 4px;
-    width: 370px;
+    width: 420px;
     height: 55px;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
@@ -85,10 +85,22 @@ html, body {
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1.1);
+    animation: blinker-image 0.5s linear infinite;
+}
+
+.cursor__name{
+    padding-top: 10px;
+    height: 50px;
+    width: 2px;
+    margin-left: 5px;
+    float: right;
+    background-color: white;
+    animation: blinker 0.5s linear infinite;
 }
 
 .content__main {
     background-image: url('../images/main.jpg');
+    background-attachment: fixed;
 }
 
 .content__main>.title__skils {
@@ -167,6 +179,18 @@ html, body {
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
+}
+
+@keyframes blinker {
+    20% {
+      opacity: 0;
+    }
+}
+
+@keyframes blinker-image {
+    95% {
+      opacity: 70%;
+    }
 }
 
 @-moz-keyframes spin {
