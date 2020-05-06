@@ -1,0 +1,189 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 31, 42);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F90;
+    background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(24, 31, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Caveat', cursive;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+}
+
+.banner>.profile {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name__profile {
+    position: relative;
+    margin-top: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 31, 42);
+    border-radius: 4px;
+    width: 370px;
+    height: 55px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name__profile h1 {
+    font-size: 70px;
+    float: left;
+    color: white;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 15px solid rgb(231, 177, 0);
+}
+
+.profile img:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.content__main {
+    background-image: url('../images/main.jpg');
+}
+
+.content__main>.title__skils {
+    display: flex;
+    justify-content: center;
+}
+
+.content__main>.title__skils h1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(24, 31, 42);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: 0.2s;
+    cursor: pointer;
+    background-color: rgb(43, 51, 63);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content__card {
+    width: 100%;
+}
+
+.img__card {
+    display: flex;
+    justify-content: center;
+}
+
+.card>.content__card>.img__card {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.content__card h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content__card p {
+    color: white;
+    font-size: 15px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.spin {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
