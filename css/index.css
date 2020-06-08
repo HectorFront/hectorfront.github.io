@@ -98,6 +98,7 @@ html, body {
 .profile img {
     border-radius: 50%;
     border: 15px solid rgb(231, 177, 0);
+    transition: 0.2s;
 }
 
 .profile img:hover {
