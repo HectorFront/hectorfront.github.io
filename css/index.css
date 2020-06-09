@@ -60,7 +60,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(24, 31, 42);
+    background-color: transparent;
     border-radius: 4px;
     width: 420px;
     height: 55px;
