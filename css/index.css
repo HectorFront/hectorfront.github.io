@@ -121,6 +121,7 @@ html, body {
     width: 100%;
     height: auto;
     background-image: url('https://wallpaperaccess.com/full/269150.jpg');
+    background-size: cover;
 }
 
 .my-info__img {
