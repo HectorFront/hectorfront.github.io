@@ -15,7 +15,7 @@ export const MoreExperiences = () => {
                         <div className="text-xl mr-2 text-yellow-500">➛</div> About me
                     </div>
                 </Link>
-                <Link href="/assets/me.pdf">
+                <Link href="/assets/me.pdf" target="_blank">
                     <div className="hover:text-yellow-500 cursor-pointer flex flex-row items-center">
                         <div className="text-xl mr-2 text-yellow-500">➛</div> Resume
                     </div>

@@ -19,10 +19,10 @@ const EtecMAM = memo(() => {
                         style={{ backgroundPosition: "center 50%", transform: `translate3d(0, ${scrollY * .3}px, 0)`, zIndex: -1 }}
                     />
                     <div className="px-5 w-full h-full bg-black bg-opacity-50 flex items-center justify-center flex-col">
-                        <h1 className="text-7xl text-white leading-none mb-5">
+                        <h1 className="text-5xl lg:text-7xl text-white leading-none mb-5">
                             Etec MAM <strong className="font-semibold">Website</strong>
                         </h1>
-                        <p className="text-3xl text-white drop-shadow-xl leading-10">
+                        <p className="text-2xl lg:text-3xl text-white drop-shadow-xl leading-10">
                             Technical, Systems Development | Final Paper 2019
                         </p>
                     </div>

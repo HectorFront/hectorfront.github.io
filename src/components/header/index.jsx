@@ -24,12 +24,12 @@ const Header = memo(() => {
                             <div className="h-1 w-0 bg-red-600 transition-all absolute duration-300 group-hover:w-full"/>
                         </li>
                     </Link>
-                    <a target="_blank" href="assets/me.pdf">
+                    <Link href="/assets/me.pdf" target="_blank">
                         <li className="group relative border-b-4 border-transparent hover:border-b-red-600 text-gray-400 hover:text-black transition">
                             Resume
                             <div className="h-1 w-0 bg-red-600 transition-all absolute duration-300 group-hover:w-full"/>
                         </li>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
         </header>

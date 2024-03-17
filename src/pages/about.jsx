@@ -40,7 +40,7 @@ const About = memo(() => {
                             <h5 className="text-gray-400 font-bold text-xl">About me</h5>
                             <h1 className="text-black font-bold text-4xl mt-2">Hello!</h1>
                             <p className="mt-4">
-                                I'm Hector, a Lead Front-end Engineer Senior at the <a target="_blank" href="https://fulltime.com.br/solucoes/fullcam/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@FullCam</a> team.
+                                I'm Hector, Front-end Engineer on the <a target="_blank" href="https://fulltime.com.br/solucoes/fullcam/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@FullCam</a> team.
                                 In 2021, I founded <a target="_blank" href="https://www.mexpenses.net" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-indigo-500 text-indigo-600">@Mexpenses</a> with
                                 just an idea to make my daily finances easier. Since then, it has become something of extreme importance to my users and to me today.
                                 Since 2019, I have 5 years of professional experience, always seeking to learn, improve, and learn about new technologies in the market.

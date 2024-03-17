@@ -20,18 +20,20 @@ const Home = memo(() => {
                         style={{ backgroundPosition: "center 70%", transform: `translate3d(0, ${scrollY * .3}px, 0)`, zIndex: -1 }}
                     />
                     <div className="px-5 xl:w-6/12">
-                        <h1 className="text-7xl font-extrabold text-black leading-none mb-5">
+                        <h1 className="text-5xl lg:text-7xl font-extrabold text-black leading-none mb-5">
                             Hello, I'm Hector
                         </h1>
-                        <p className="text-3xl font-semibold text-black drop-shadow-xl leading-10">
+                        <p className="text-2xl lg:text-3xl font-semibold text-black drop-shadow-xl">
+                            Front-end Enginner at&nbsp;
+                            <a target="_blank" href="https://fulltime.com.br/" className="font-extrabold text-red-600 border-b-8 border-transparent transition duration-300 hover:border-red-400 hover:text-red-400 cursor-pointer">
+                                @Fulltime
+                            </a>
+                            &nbsp;&
+                        </p>
+                        <p className="text-2xl lg:text-3xl font-semibold text-black drop-shadow-xl mt-3">
                             Founder/Software Enginner at&nbsp;
                             <a target="_blank" href="https://www.mexpenses.net" className="font-extrabold text-indigo-600 border-b-8 border-transparent transition duration-300 hover:border-indigo-400 hover:text-indigo-400 cursor-pointer">
                                 @Mexpenses
-                            </a>
-                            &nbsp;&<br/>
-                            Lead Front-end Enginner Senior at&nbsp;
-                            <a target="_blank" href="https://fulltime.com.br/" className="font-extrabold text-red-600 border-b-8 border-transparent transition duration-300 hover:border-red-400 hover:text-red-400 cursor-pointer">
-                                @Fulltime
                             </a>
                         </p>
                         <small className="font-semibold">Sorry for my english, i'm brazilian and have improving :)</small>
