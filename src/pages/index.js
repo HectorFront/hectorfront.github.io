@@ -24,7 +24,7 @@ const Home = memo(() => {
                             Hello, I'm Hector
                         </h1>
                         <p className="text-2xl lg:text-3xl font-semibold text-black drop-shadow-xl">
-                            Front-end Enginner at&nbsp;
+                            Lead Front-end Enginner Senior at&nbsp;
                             <a target="_blank" href="https://fulltime.com.br/" className="font-extrabold text-red-600 border-b-8 border-transparent transition duration-300 hover:border-red-400 hover:text-red-400 cursor-pointer">
                                 @Fulltime
                             </a>
