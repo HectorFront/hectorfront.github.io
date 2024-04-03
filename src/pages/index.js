@@ -24,14 +24,14 @@ const Home = memo(() => {
                             Hello, I'm Hector
                         </h1>
                         <p className="text-2xl lg:text-3xl font-semibold text-black drop-shadow-xl">
-                            Lead Front-end Enginner Senior at&nbsp;
+                            Lead Front-end Engineer Senior at&nbsp;
                             <a target="_blank" href="https://fulltime.com.br/" className="font-extrabold text-red-600 border-b-8 border-transparent transition duration-300 hover:border-red-400 hover:text-red-400 cursor-pointer">
                                 @Fulltime
                             </a>
                             &nbsp;&
                         </p>
                         <p className="text-2xl lg:text-3xl font-semibold text-black drop-shadow-xl mt-3">
-                            Founder/Software Enginner at&nbsp;
+                            Founder/Software Engineer at&nbsp;
                             <a target="_blank" href="https://www.mexpenses.net" className="font-extrabold text-indigo-600 border-b-8 border-transparent transition duration-300 hover:border-indigo-400 hover:text-indigo-400 cursor-pointer">
                                 @Mexpenses
                             </a>
