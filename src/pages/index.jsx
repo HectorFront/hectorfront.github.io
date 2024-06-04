@@ -87,7 +87,7 @@ const Home = memo(() => {
                             </h3>
                         </div>
                         <h1 className="mt-5 md:mt-0 text-black font-bold w-full text-center border-b-2 border-b-gray-200 text-2xl" style={{ lineHeight: 0 }}>
-                            <span className="px-5 bg-white select-none">Projects / Experiences</span>
+                            <span className="px-5 bg-white select-none">Projects and Experiences</span>
                         </h1>
                         <div className="mt-14 w-full grid grid-cols-1 md:grid-cols-2 auto-cols-max justify-between gap-14">
                             <div className="rounded-xl shadow-lg hover:scale-105 transition cursor-not-allowed relative" title="Coming soon">
