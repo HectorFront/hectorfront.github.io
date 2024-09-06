@@ -29,7 +29,7 @@ const About = memo(() => {
                         </div>
                         <span className="text-3xl">•</span>
                         <div className="text-indigo-600 relative group">
-                            <a href="https://www.mexpenses.net" target="_blank">
+                            <a href="https://mexpenses.com.br" target="_blank">
                                 @Mexpenses
                                 <div className="h-3 bg-indigo-600 opacity-20 w-full absolute top-4 transition-all duration-300 group-hover:top-6"/>
                             </a>
@@ -39,39 +39,42 @@ const About = memo(() => {
                         <div className="xl:pr-20">
                             <h5 className="text-gray-400 font-bold text-xl">About me</h5>
                             <h1 className="text-black font-bold text-4xl mt-2">Hello!</h1>
-                            <p className="mt-4">
-                                I'm Hector, Front-end Engineer on the <a target="_blank" href="https://fulltime.com.br/solucoes/fullcam/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@FullCam</a> team.
-                                In 2021, I founded <a target="_blank" href="https://www.mexpenses.net" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-indigo-500 text-indigo-600">@Mexpenses</a> with
-                                just an idea to make my daily finances easier. Since then, it has become something of extreme importance to my users and to me today.
-                                Since 2019, I have 5 years of professional experience, always seeking to learn, improve, and learn about new technologies in the market.
-                                My role as a developer in these companies is to create innovations, intuitive experiences that have a great impact on users, and solve problems from the easiest to the most difficult.
-                                I started programming at the age of 16 in a school with a technical course in System Development in the city of Garça SP. I fell in love with learning web-oriented languages and UX/UI development tools.
-                                During my studies, I started my internship at <a target="_blank" href="https://fulltime.com.br/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@Fulltime</a> through
-                                the recommendation of a teacher. There, I had the opportunity to start my career and become a full-time qualified professional.
-                            </p>
+                            <div className="w-full mt-4 flex flex-col gap-5">
+                                <p>
+                                    I'm Hector — a Front-end Engineer at <a target="_blank" href="https://fulltime.com.br/solucoes/fullcam/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@FullCam</a> team.
+                                    In 2021, I founded <a target="_blank" href="https://mexpenses.com.br" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-indigo-500 text-indigo-600">@Mexpenses</a> with
+                                    just an idea to simplify my personal finances. What began as a small project has grown into something deeply valuable — both to me and to my users.
+                                </p>
+                                <p>
+                                    Since 2019, I’ve accumulated 5 years of experience in web development, consistently driven by a passion for innovation, clean user experiences, and solving real-world problems — from simple UI tweaks to complex architectural challenges.
+                                </p>
+                                <p>
+                                    My journey in tech started at 16, during a technical high school program in System Development in Garça, SP - Brazil. There, I fell in love with web technologies and UX/UI design. Thanks to a recommendation from one of my teachers, I began an
+                                    internship at <a target="_blank" href="https://fulltime.com.br/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@Fulltime</a>, which later led to a full-time position
+                                    and helped launch my professional career.
+                                </p>
+                            </div>
                         </div>
-                        <img src="/assets/me.png" className="h-96 rounded-xl shadow-lg" alt="Hector Silva"/>
+                        <img src="/assets/me.png" className="h-52 rounded-xl shadow-lg" alt="Hector Silva"/>
                     </div>
                     <div className="w-full mt-10 flex flex-col gap-5">
                         <p>
-                            Lately, I've been very involved with frameworks and libraries like&nbsp;
+                            Today, I specialize in building modern, intuitive interfaces using technologies like&nbsp;
                             <a target="_blank" href="https://nextjs.org/" className="transition duration-300 text-gray-700 border-b-2 border-transparent hover:border-gray-700">Next.js</a>,&nbsp;
                             <a target="_blank" href="https://react.dev/" className="transition duration-300 text-blue-500 border-b-2 border-transparent hover:border-y-blue-500">React.js</a>,&nbsp;
                             <a target="_blank" href="https://www.typescriptlang.org/" className="transition duration-300 text-blue-700 border-b-2 border-transparent hover:border-blue-700">TypeScript</a>,&nbsp;
-                            <a target="_blank" href="https://vitest.dev/" className="transition duration-300 text-transparent bg-gradient-to-l from-green-600 to-yellow-600 bg-clip-text border-b-2 border-transparent hover:border-green-600">Vitest</a> and&nbsp;
-                            <a target="_blank" href="https://github.com/HectorFront/#tools" className="transition duration-300 text-gray-700 underline hover:no-underline">other tools</a> that help with the productivity of web development.
-                            I have intermediate experience with cloud service providers like&nbsp;
-                            <a target="_blank" href="https://aws.amazon.com/" className="transition duration-300 text-orange-600 border-b-2 border-transparent hover:border-orange-600">AWS (Amazon Web Services)</a>, building&nbsp;
-                            <a target="_blank" href="https://aws.amazon.com/what-is/restful-api/" className="transition duration-300 text-gray-700 underline hover:no-underline">API's RESTful</a> with&nbsp;
-                            <a target="_blank" href="https://www.mysql.com/" className="transition duration-300 text-blue-800 border-b-2 border-transparent hover:border-blue-800">MySQL database</a>, and&nbsp;
-                            <a target="_blank" href="https://aws.amazon.com/microservices/" className="transition duration-300 text-gray-700 underline hover:no-underline">Microservices</a> using&nbsp;
-                            <a target="_blank" href="https://nodejs.org/" className="transition duration-300 text-green-700 border-b-2 border-transparent hover:border-green-700">Node.js</a> and&nbsp;
-                            <a target="_blank" href="https://www.python.org/" className="transition duration-300 text-blue-600 border-b-2 border-transparent hover:border-blue-600">Python</a>.
+                            <a target="_blank" href="https://vitest.dev/" className="transition duration-300 text-transparent bg-gradient-to-l from-green-600 to-yellow-600 bg-clip-text border-b-2 border-transparent hover:border-green-600">Vitest</a>.
+                            I also work with <a target="_blank" href="https://nodejs.org/" className="transition duration-300 text-green-700 border-b-2 border-transparent hover:border-green-700">Node.js</a> and&nbsp;
+                            <a target="_blank" href="https://www.python.org/" className="transition duration-300 text-blue-600 border-b-2 border-transparent hover:border-blue-600">Python</a> for backend services, and I have intermediate experience with&nbsp;
+                            <a target="_blank" href="https://aws.amazon.com/" className="transition duration-300 text-orange-600 border-b-2 border-transparent hover:border-orange-600">AWS (Amazon Web Services)</a>,&nbsp;
+                            <a target="_blank" href="https://aws.amazon.com/what-is/restful-api/" className="transition duration-300 text-gray-700 underline hover:no-underline">RESTful APIs</a>,&nbsp;
+                            <a target="_blank" href="https://www.mysql.com/" className="transition duration-300 text-blue-800 border-b-2 border-transparent hover:border-blue-800">MySQL database</a> and&nbsp;
+                            <a target="_blank" href="https://aws.amazon.com/microservices/" className="transition duration-300 text-gray-700 underline hover:no-underline">Microservices architecture</a>.
                         </p>
                         <p>
-                            I like to spend my time playing online games, watching suspense movies on streaming services, and always looking for new places to enjoy different flavors.
-                            If you want to talk to me, I'm open to new challenges and opportunities so that I can evolve and contribute more and more.
-                            Feel free to send me an email at <a target="_blank" href="mailto:hectddos103@gmail.com" className="transition duration-300 text-indigo-600 border-b-2 border-transparent hover:border-indigo-400">hectddos103@gmail.com</a> or
+                            Outside of coding, I enjoy online gaming, watching suspense movies, and exploring new culinary experiences.
+                            I'm always open to meaningful conversations, challenges, and opportunities to grow and make an impact.
+                            📫 Reach me at <a target="_blank" href="mailto:hectddos103@gmail.com" className="transition duration-300 text-indigo-600 border-b-2 border-transparent hover:border-indigo-400">hectddos103@gmail.com</a> or
                             connect with me on <a target="_blank" href="https://www.linkedin.com/in/hector-rodrigues-da-silva-4073b3191/" className="transition duration-300 text-blue-700 border-b-2 border-transparent hover:border-blue-700">LinkedIn.</a>
                         </p>
                     </div>
