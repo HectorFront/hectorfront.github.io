@@ -29,7 +29,7 @@ const About = memo(() => {
                         </div>
                         <span className="text-3xl">•</span>
                         <div className="text-indigo-600 relative group">
-                            <a href="https://www.mexpenses.net" target="_blank">
+                            <a href="https://mexpenses.com.br" target="_blank">
                                 @Mexpenses
                                 <div className="h-3 bg-indigo-600 opacity-20 w-full absolute top-4 transition-all duration-300 group-hover:top-6"/>
                             </a>
@@ -41,7 +41,7 @@ const About = memo(() => {
                             <h1 className="text-black font-bold text-4xl mt-2">Hello!</h1>
                             <p className="mt-4">
                                 I'm Hector, Front-end Engineer on the <a target="_blank" href="https://fulltime.com.br/solucoes/fullcam/" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-red-500 text-red-600">@FullCam</a> team.
-                                In 2021, I founded <a target="_blank" href="https://www.mexpenses.net" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-indigo-500 text-indigo-600">@Mexpenses</a> with
+                                In 2021, I founded <a target="_blank" href="https://mexpenses.com.br" className="transition duration-300 cursor-pointer border-b-2 border-transparent hover:border-indigo-500 text-indigo-600">@Mexpenses</a> with
                                 just an idea to make my daily finances easier. Since then, it has become something of extreme importance to my users and to me today.
                                 Since 2019, I have 5 years of professional experience, always seeking to learn, improve, and learn about new technologies in the market.
                                 My role as a developer in these companies is to create innovations, intuitive experiences that have a great impact on users, and solve problems from the easiest to the most difficult.
