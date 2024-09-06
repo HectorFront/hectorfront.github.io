@@ -104,7 +104,7 @@ const Home = memo(() => {
                                         FullCam Web App<br/><small className="mx-2 animate-pulse">Comming soon</small>
                                     </h1>
                                 </div>
-                                <img src="assets/fullcam.jpg" width="100%" alt="App FullCam" className="rounded-xl"/>
+                                <img src="assets/fullcam.png" width="100%" alt="App FullCam" className="rounded-xl"/>
                             </div>
                             <div className="rounded-xl shadow-lg hover:scale-105 transition cursor-not-allowed relative" title="Coming soon">
                                 <div className="group bg-transparent w-full h-full hover:bg-indigo-600 opacity-0 hover:opacity-100 rounded-xl absolute transition hover:bg-opacity-80 group-hover:top-0 flex items-center justify-center">
